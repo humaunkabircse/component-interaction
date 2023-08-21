@@ -1,4 +1,5 @@
 <script setup>
+import { defineProps } from 'vue';
 defineProps(['message'])
 
 const emit = defineEmits(['update:message'])
